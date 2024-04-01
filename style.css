@@ -1,0 +1,61 @@
+* {
+    margin:  0 ;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #313131;
+}
+
+#semaforo {
+    border-radius: 50px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 240px;
+    border: 2 px solid white;
+}
+
+input {
+    position: absolute;
+    width: 130px;
+    height: 75px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition-duration: 0.2s;
+}
+
+#amarelo , #vermelho , #verde {
+    margin-top: 500px;
+}
+
+#verde {
+    left: 39%;
+}
+
+
+#amarelo {
+    left: 47%;
+}
+
+#vermelho {
+    left: 55%;
+}
+
+input:hover {
+    background-color: #313131;
+    height: 100px;
+    top: -1%;
+}
+
+#auto {
+    margin-top: 590px;
+    left: 47%;
+}
